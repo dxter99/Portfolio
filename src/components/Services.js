@@ -9,7 +9,7 @@ const Services = () => {
             <h1 className="py-5">My Services</h1>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-4 col-sm-6">
+                    <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="box">
                             <div className="circle">
                                 <FontAwesomeIcon className="icon" icon={faDesktop} size="2x" />
@@ -18,7 +18,7 @@ const Services = () => {
                             <p>I apporoach each project indivisually and always focus on result.</p>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6">
+                    <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="box">
                             <div className="circle">
                                 <FontAwesomeIcon className="icon" icon={faFileCode} size="2x" />
@@ -27,7 +27,7 @@ const Services = () => {
                             <p>Your website will be build with an new proven technologies.</p>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6">
+                    <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="box">
                             <div className="circle">
                                 <FontAwesomeIcon className="icon" icon={faGoogle} size="2x" />
