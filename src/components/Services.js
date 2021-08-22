@@ -1,5 +1,5 @@
 import React from 'react'
-import { faFacebookF, faGoogle } from '@fortawesome/free-brands-svg-icons'
+import { faGoogle } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDesktop, faFileCode } from '@fortawesome/free-solid-svg-icons'
 
