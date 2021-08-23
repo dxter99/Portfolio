@@ -100,12 +100,9 @@ const popupboxConfigTaskManager = {
 
 const Portfolio = () => {
     return (
-      <div className="portfolio-wrapper">
+      <div id="Portfolio" className="portfolio-wrapper">
         <div className="container">
-        <h1 className="text-uppercase text-center pbvb      
-        
-        
-        bnbbnb           -5">portfolio</h1>     
+        <h1 className="text-uppercase text-center pb-5">portfolio</h1>     
         <div className="image-box-wrapper row row-cols-auto justify-content-center">
               <div className="portfolio-image-box" onClick={openPopupboxNetflix}>
                 <img className="portfolio-image" src={netflix} alt="Netflix Clone Project..." />

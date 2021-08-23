@@ -109,7 +109,7 @@ nav a.nav-link {
 
 .navbar-nav > li > a.active,
 .navbar-nav > li > a:focus {
-  border-top: 0.1875rem solid var(--primary-orange);
+  border-top: 0.1875rem solid var(--primary-blue);
 }
 
 .navbar-nav > li > a:hover {
@@ -418,6 +418,10 @@ nav a.nav-link {
   cursor: pointer;
 }
 
+.popupbox-wrapper {
+  margin-top: 7rem;
+}
+
 /*------------ OVERFLOW BOX ------------------*/
 .portfolio-image-popupbox {
   width: 45rem;
@@ -609,7 +613,7 @@ textarea.form-control {
 }
 
 .success-message {
-  font-weight: 900;
+  font-weight: lighter;
   color: var(--primary-green);
 }
 
@@ -626,4 +630,27 @@ textarea.form-control {
   .contacts p {
     padding: 0 0.4rem;
   }
+}
+
+/*---------------- Footer -----------------------*/
+
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-darkgray);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-darkgray);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-blue);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
 }

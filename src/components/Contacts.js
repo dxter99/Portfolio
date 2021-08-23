@@ -31,13 +31,13 @@ const Contacts = () => {
     const sendEmail = (serviceID, templateID, variables, userID)=> {
         emailjs.send(serviceID, templateID, variables, userID)
           .then(() => {
-              setsuccessMessage("Form sent successfully! I'll contact you as soon as possible");
+              setsuccessMessage("Form sent successfully! I'll contact you as soon as possible.");
               
           }).catch(err=>console.error(`Something went wrong ${err}`));
       }
     
 return (
-        <div className="contacts">
+        <div id="Contacts" className="contacts">
             <div className="text-center">
             <h1>Contact Me</h1>
             <p>Please contact me if you have any project.</p>
