@@ -10,6 +10,7 @@
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
   --primary-black: #000000;
+  --primary-green: green;
   --primary-dark: rgba(255, 255, 255, 0);
   --primary-dark2: rgb(52, 58, 64);
   --primary-transparent-black: rgba(0, 0, 0, 0.7);
@@ -170,6 +171,7 @@ nav a.nav-link {
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
   margin: 2rem;
+  font-weight: lighter;
 }
 
 .btn-main-offer:hover {
@@ -404,6 +406,7 @@ nav a.nav-link {
 .portfolio-icon {
   position: absolute;
   opacity: 0;
+  margin-left: -8rem;
   margin-top: 3.6rem;
   color: var(--primary-blue);
   font-size: 1.5rem;
@@ -477,7 +480,7 @@ nav a.nav-link {
   text-align: center;
   max-width: 53.125rem;
   margin: 0 auto 2rem auto;
-  background: var(--primary-transparent-black); 
+  background: var(--primary-transparent-black);
 }
 
 .myCarousel {
@@ -518,4 +521,109 @@ nav a.nav-link {
 .carousel-root {
   margin: auto !important;
   margin-top: 3% !important;
+}
+
+/***********************Contacts**********************/
+
+.contacts {
+  background: var(--primary-dark2);
+  padding: 3rem 0;
+}
+
+.contacts h1 {
+  color: var(--primary-blue);
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  color: var(--primary-light-gray);
+  font-size: 1.2rem;
+}
+
+/***********************Inputs**********************/
+.contacts input,
+.contacts textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 0.125rem solid var(--primary-darkgray);
+  border-radius: 0;
+  color: var(--primary-blue);
+  outline: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
+}
+
+.contacts .container {
+  padding: 4rem 0;
+}
+
+.contacts input:focus,
+.contacts textarea:focus {
+  background: transparent;
+  color: var(--primary-blue);
+  border-bottom: 0.125rem solid var(--primary-darkgrey);
+}
+
+.contacts textarea {
+  height: 12.2rem !important;
+}
+
+.contact-btn {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  background: none;
+}
+
+.line {
+  position: relative;
+  top: -0.8rem;
+  width: 0;
+  height: 0.125rem;
+  background: var(--primary-blue);
+  display: inline-block;
+}
+
+input:focus + .line,
+textarea:focus + .line {
+  width: 100%;
+  transition: width 0.9s ease-in-out;
+}
+
+input.form-control {
+  margin: -0.3rem 0;
+}
+
+textarea.form-control {
+  margin: -0.3rem 0;
+}
+
+.error-message {
+  color: var(--primary-white);
+  background: var(--primary-hover-red);
+  text-align: left;
+}
+
+.success-message {
+  font-weight: 900;
+  color: var(--primary-green);
+}
+
+/*---------------- MEDIA -----------------------*/
+@media (max-width: 768px) {
+  .contacts {
+    overflow-x: hidden;
+  }
+
+  .contacts .container {
+    padding: 0 1rem;
+  }
+
+  .contacts p {
+    padding: 0 0.4rem;
+  }
 }
