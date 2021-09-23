@@ -74,7 +74,7 @@ const Footer = () => {
                         <h4 className="footersections">Have a Questions?</h4>
                         <ul className="list-unstyled">
                             <li><a className="contactlink"><FontAwesomeIcon className="NavIconFootercon" icon={faPhoneAlt}/>+91 9137604629</a></li>
-                            <li><a className="contactlink"><FontAwesomeIcon className="NavIconFootercon" icon={faEnvelope}/>Shubhamnachare008@outlook.com</a></li>
+                            <li><a className="contactlink"><FontAwesomeIcon className="NavIconFootercon" icon={faEnvelope}/>Shubhamnachare08@outlook.com</a></li>
                         </ul>
                     </div>
                     <p className="copy">

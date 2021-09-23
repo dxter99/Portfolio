@@ -12,8 +12,7 @@ const Header = () => {
                         Shubham Nachare
                     </h1>
                     <h2 className="typed-h2">I Like <Typed className="typed-text" strings={["Web Design", "Web Development","DevOps"]} typeSpeed={60} backSpeed={90} loop/></h2>
-                    <Link smooth={true} duration={2000} to="Contacts" offset={-95} className="btn-main-offer">Contact Me</Link>
-                    {/* <Link smooth={true} duration={2000} to="Portfolio" offset={-100} className="nav-link" href="#">Portfolio</Link> */}
+                    <Link smooth={true} duration={500}s to="Contacts" offset={-95} className="btn-main-offer">Contact Me</Link>
                 </div>
         </div>
     )
