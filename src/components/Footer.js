@@ -1,4 +1,9 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLongArrowAltRight,faPhoneAlt,faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-scroll'
+
+
 import {
     FacebookShareButton,
     FacebookIcon,
@@ -7,79 +12,74 @@ import {
     RedditShareButton,
     RedditIcon,
     LinkedinShareButton,
-    LinkedinIcon
+    LinkedinIcon,
   } from "react-share";
 
 const Footer = () => {
     return (
         <div className="footer">
             <div className="container">
-                <div className="row">
+                <div className="row roww">
                     <div className="col-lg-4 col-md-6 col-sm-6">
+                        <h4 className="footersections">About</h4>
                         <div className="d-flex">
-                            <p>City Moscow Main st 2021 office #23</p>
+                            <row><p>I Like web development and working on new techologies. Creating projects to get hands on experience and to implement my learnings.
+                                also to meet new people and learn from them :)</p>
+                                <p>Location - Mumbai, India</p>
+                            </row>  
                         </div>
-                        <div className="d-flex">
-                            <a href="tel:555-555-555">+9137604629</a>
-                        </div>
-                        <div className="d-flex">
-                            <p>Shubhamnachare08@gmail.com</p>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-2 col-sm-6">
-                        <div className="row">
-                            <div className="col">
-                                <a className="footer-nav">Home</a>
-                                <br/>
-                                <a className="footer-nav">About Me</a>
-                                <br/>
-                                <a className="footer-nav">Services</a>
-                            </div>
-                            <div className="col">
-                                <a className="footer-nav">Experience</a>
-                                <br/>
-                                <a className="footer-nav">Portfolio</a>
-                                <br/>
-                                <a className="footer-nav">Contacts</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
-                        <div className="d-flex justify-content-center">
+                        <div className="pt-5 social d-flex">
                         <FacebookShareButton
-                            url={"https://www.youtube.com/8020coding"}
+                            url={"https://www.facebook.com/shubham.nachare.9"}
                             quote={"FullStack Developer"}
                             hashtag="#javascript"
                         >
                             <FacebookIcon className="mx-3" size={36} />
                         </FacebookShareButton>
                         <TwitterShareButton
-                            url={"https://www.youtube.com/8020coding"}
+                            url={"https://twitter.com/Shubham40760018"}
                             quote={"FullStack Developer"}
                             hashtag="#javascript"
                         >
                             <TwitterIcon className="mx-3" size={36} />
                         </TwitterShareButton>
                         <RedditShareButton
-                            url={"https://www.youtube.com/8020coding"}
+                            url={""}
                             quote={"FullStack Developer"}
                             hashtag="#javascript"
                         >
                             <RedditIcon className="mx-3" size={36} />
                         </RedditShareButton>
                         <LinkedinShareButton
-                            url={"https://www.youtube.com/8020coding"}
+                            url={"https://www.linkedin.com/in/shubham-nachare-653024146/"}
                             quote={"FullStack Developer"}
                             hashtag="#javascript"
                         >
                             <LinkedinIcon className="mx-3" size={36} />
                         </LinkedinShareButton>
                         </div>
-                        <p className="pt-3 text-center">
-                        Copyright&copy;
-                        {new Date().getFullYear()}&nbsp;New Horizon | All Rights Reserved
-                        </p>
                     </div>
+                    <div className="col-lg-3 offset-md-1 col-md-2 col-sm-6">
+                        <h4 className="footersections">Links</h4>            
+                            <ul className="list-unstyled">                          
+                                <li><Link smooth={true} duration={1000} to="Home" className="footer-nav"><FontAwesomeIcon className="me-2 NavIconFooter" icon={faLongArrowAltRight}/>Home</Link></li>                               
+                                <li><Link smooth={true} duration={1000} to="About" className="footer-nav"><FontAwesomeIcon className="me-2 NavIconFooter" icon={faLongArrowAltRight}/>About Me</Link>  </li>                             
+                                <li><Link smooth={true} duration={1000} to="Services" className="footer-nav"><FontAwesomeIcon className="me-2 NavIconFooter" icon={faLongArrowAltRight}/>Services</Link>     </li>                          
+                                <li><Link smooth={true} duration={1000} to="Experience" className="footer-nav"><FontAwesomeIcon className="me-2 NavIconFooter" icon={faLongArrowAltRight}/>Experience</Link></li>                                                           
+                                <li><Link smooth={true} duration={1000} to="Portfolio" className="footer-nav"><FontAwesomeIcon className="me-2 NavIconFooter" icon={faLongArrowAltRight}/>Portfolio</Link></li>
+                                <li><Link smooth={true} duration={1000} to="Contacts"  className="footer-nav"><FontAwesomeIcon className="me-2 NavIconFooter" icon={faLongArrowAltRight}/>Contacts</Link></li>
+                            </ul>
+                    </div>
+                    <div className="col-lg-4 col-md-5 col-sm-6 align-items-center">
+                        <h4 className="footersections">Have a Questions?</h4>
+                        <ul className="list-unstyled">
+                            <li><a className="contactlink"><FontAwesomeIcon className="NavIconFootercon" icon={faPhoneAlt}/>+91 9137604629</a></li>
+                            <li><a className="contactlink"><FontAwesomeIcon className="NavIconFootercon" icon={faEnvelope}/>Shubhamnachare008@outlook.com</a></li>
+                        </ul>
+                    </div>
+                    <p className="copy">
+                    Copyright &copy; {new Date().getFullYear()} | All Rights Reserved
+                    </p>
                 </div>
             </div>
         </div>

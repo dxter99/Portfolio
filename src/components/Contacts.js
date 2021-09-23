@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
+import { useHistory } from 'react-router-dom';
 
   
 
 const Contacts = () => {
+  const history = useHistory();
   const [successMessage, setsuccessMessage] = useState("");
   const{register, handleSubmit,formState:{errors} } = useForm();
 
@@ -40,7 +42,7 @@ return (
         <div id="Contacts" className="contacts">
             <div className="text-center">
             <h1>Contact Me</h1>
-            <p>Please contact me if you have any project.</p>
+            <p>Let's get in touch we can have some chat!</p>
         <span className="success-message">{successMessage}</span>
             </div>
             <div className="container">
