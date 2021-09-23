@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/dxter99/Portfolio/static/css/main.b558894f.chunk.css",
+    "main.js": "/dxter99/Portfolio/static/js/main.2c4c9b1a.chunk.js",
+    "main.js.map": "/dxter99/Portfolio/static/js/main.2c4c9b1a.chunk.js.map",
+    "runtime-main.js": "/dxter99/Portfolio/static/js/runtime-main.ca4b095c.js",
+    "runtime-main.js.map": "/dxter99/Portfolio/static/js/runtime-main.ca4b095c.js.map",
+    "static/css/2.aa07b0ce.chunk.css": "/dxter99/Portfolio/static/css/2.aa07b0ce.chunk.css",
+    "static/js/2.6055d5f3.chunk.js": "/dxter99/Portfolio/static/js/2.6055d5f3.chunk.js",
+    "static/js/2.6055d5f3.chunk.js.map": "/dxter99/Portfolio/static/js/2.6055d5f3.chunk.js.map",
+    "static/js/3.8e5341b4.chunk.js": "/dxter99/Portfolio/static/js/3.8e5341b4.chunk.js",
+    "static/js/3.8e5341b4.chunk.js.map": "/dxter99/Portfolio/static/js/3.8e5341b4.chunk.js.map",
+    "index.html": "/dxter99/Portfolio/index.html",
+    "static/css/2.aa07b0ce.chunk.css.map": "/dxter99/Portfolio/static/css/2.aa07b0ce.chunk.css.map",
+    "static/css/main.b558894f.chunk.css.map": "/dxter99/Portfolio/static/css/main.b558894f.chunk.css.map",
+    "static/js/2.6055d5f3.chunk.js.LICENSE.txt": "/dxter99/Portfolio/static/js/2.6055d5f3.chunk.js.LICENSE.txt",
+    "static/media/Personal.981e85e5.jpg": "/dxter99/Portfolio/static/media/Personal.981e85e5.jpg",
+    "static/media/avatar-1.9277ecea.png": "/dxter99/Portfolio/static/media/avatar-1.9277ecea.png",
+    "static/media/avatar-2.75d8f23e.png": "/dxter99/Portfolio/static/media/avatar-2.75d8f23e.png",
+    "static/media/avatar-3.d6c9b46f.png": "/dxter99/Portfolio/static/media/avatar-3.d6c9b46f.png",
+    "static/media/avatar-4.f7fb7ed7.png": "/dxter99/Portfolio/static/media/avatar-4.f7fb7ed7.png",
+    "static/media/city-guide-app.e4843bd0.png": "/dxter99/Portfolio/static/media/city-guide-app.e4843bd0.png",
+    "static/media/netflix.5a78c4b9.png": "/dxter99/Portfolio/static/media/netflix.5a78c4b9.png",
+    "static/media/portfolio.e4d369bc.png": "/dxter99/Portfolio/static/media/portfolio.e4d369bc.png",
+    "static/media/task-manager.7cdcc29e.png": "/dxter99/Portfolio/static/media/task-manager.7cdcc29e.png",
+    "static/media/App.css": "/dxter99/Portfolio/static/media/testimonials-bg.75612be7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ca4b095c.js",
+    "static/css/2.aa07b0ce.chunk.css",
+    "static/js/2.6055d5f3.chunk.js",
+    "static/css/main.b558894f.chunk.css",
+    "static/js/main.2c4c9b1a.chunk.js"
+  ]
+}
