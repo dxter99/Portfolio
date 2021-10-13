@@ -15,7 +15,7 @@ const openPopupboxNetflix = () => {
       <>
         <img className="portfolio-image-popupbox" src={netflix} alt="Netflix Clone Project..." />
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/netflix-project")}>https://github.com/8020Coding/netflix-project</a>
+        {/* <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com//netflix-project")}>https://github.com/netflix-project</a> */}
       </>
     )
     PopupboxManager.open({ content })
@@ -37,7 +37,7 @@ const openPopupboxCityGuide = () => {
     <>
       <img className="portfolio-image-popupbox" src={cityGuide} alt="City Guide Project..." />
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-      <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/netflix-project")}>https://github.com/8020Coding/netflix-project</a>
+      {/* <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/netflix-project")}>https://github.com/netflix-project</a> */}
     </>
   )
   PopupboxManager.open({ content })
@@ -59,7 +59,7 @@ const openPopupboxPortfolio = () => {
     <>
       <img className="portfolio-image-popupbox" src={portfolio} alt="Portfolio Project..." />
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-      <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/netflix-project")}>https://github.com/8020Coding/netflix-project</a>
+      {/* <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/netflix-project")}>https://github.com/netflix-project</a> */}
     </>
   )
   PopupboxManager.open({ content })
@@ -81,7 +81,7 @@ const openPopupboxTaskManager = () => {
     <>
       <img className="portfolio-image-popupbox" src={taskManager} alt="TaskManager Project..." />
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-      <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/netflix-project")}>https://github.com/8020Coding/netflix-project</a>
+      {/* <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/netflix-project")}>https://github.com/netflix-project</a> */}
     </>
   )
   PopupboxManager.open({ content })
