@@ -214,7 +214,19 @@ nav ul li {
   border-radius: 0.3rem;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
-  margin: 2rem;
+  margin: 3rem;
+  font-weight: lighter;
+}
+
+.btn-main-resume {
+  border: 1px solid var(--primary-white);
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 132px;
+  border-radius: 0.3rem;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 3rem;
   font-weight: lighter;
 }
 
@@ -223,6 +235,18 @@ nav ul li {
   background-color: var(--primary-hover-red);
   color: var(--primary-white);
   transition: 0.2s ease-in-out;
+}
+
+.btn-main-resume:hover {
+  text-decoration: none;
+  background-color: var(--primary-white);
+  transition: 0.2s ease-in-out;
+}
+
+.button-wrapper{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
 }
 
 /***********************tsparticles-canvas-el**********************/
@@ -677,10 +701,11 @@ textarea.form-control {
   font-size: 16px;
   font-family: "Poppins", Arial, sans-serif;
   color: #ffffff99;
+  height: 90vh !important;
 }
 
 .roww {
-  padding: 120px 0 0 0;
+  padding: 130px 0 0 70px;
 }
 
 .footer a {
@@ -699,7 +724,7 @@ textarea.form-control {
   font-weight: 600;
   color: #fff;
   font-family: "Poppins", Arial, sans-serif;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 
 .footer-nav {
@@ -723,7 +748,7 @@ li {
 
 .copy {
   text-align: center;
-  padding: 90px 0 70px 0;
+  padding: 170px 0 0 0;
 }
 
 /* @media (max-width: 992px) {

@@ -15,7 +15,7 @@ const Services = () => {
                                 <FontAwesomeIcon className="icon" icon={faDesktop} size="2x" />
                             </div>
                             <h3>Web Design</h3>
-                            <p>I approach each project indivisually and always focus on result.</p>
+                            <p>I approach each project individually and always focus on result.</p>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-6">

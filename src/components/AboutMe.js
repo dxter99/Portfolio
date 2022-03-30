@@ -15,9 +15,10 @@ const AboutMe = () => {
 
                     <h1 className="about-heading">About Me</h1>
                     <p>
-                        Hello! I am Shubham.
-                        <br/>I'm Full-Stack Developer. I like to develop things on  
-                        Technologies I use are Anuglar, .NET FRAMEWORK, SSMS, REACT, NODEJS.
+                        <br></br>
+                        <h5>Hello! I am Shubham.</h5>
+                        I'm Full-Stack Developer. I like to develop things and get creative.
+
                     </p>
                 </div>
             </div>
