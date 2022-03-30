@@ -6,9 +6,10 @@ import { Link } from 'react-scroll'
 
 const Navbar = () => {
     const[navbar,setNavbar] = useState(false);
-
+    const[comp,setComp] = useState(true);
     const changeBackground = () =>{
-        if(window.scrollY >= 610){
+        if(window.scrollY >= 680){
+            console.log(comp,"Link")
             setNavbar(true);
         }else{
             setNavbar(false);
@@ -45,7 +46,7 @@ const Navbar = () => {
                             <Link smooth={true} duration={500} to="Portfolio" offset={-100} className="nav-link" href="#">Portfolio</Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} duration={500} to="Contacts" offset={-95} className="nav-link" href="#">Contacts</Link>
+                            <Link smooth={true} duration={500} to="Contacts" offset={-95} className="nav-link" href="#">Contact</Link>
                         </li>
                     </ul>
                     

@@ -70,8 +70,8 @@ const Footer = () => {
                                 <li><Link smooth={true} duration={1000} to="Contacts"  className="footer-nav"><FontAwesomeIcon className="me-2 NavIconFooter" icon={faLongArrowAltRight}/>Contacts</Link></li>
                             </ul>
                     </div>
-                    <div className="col-lg-4 col-md-5 col-sm-6 align-items-center">
-                        <h4 className="footersections">Have a Questions?</h4>
+                    <div className="col-lg-4 col-md-5 col-sm-6 align-items-right">
+                        <h4 className="footersections">Have a Question?</h4>
                         <ul className="list-unstyled">
                             <li><a className="contactlink"><FontAwesomeIcon className="NavIconFootercon" icon={faPhoneAlt}/>+91 9137604629</a></li>
                             <li><a className="contactlink"><FontAwesomeIcon className="NavIconFootercon" icon={faEnvelope}/>Shubhamnachare08@outlook.com</a></li>
