@@ -1,7 +1,6 @@
 import React from 'react';
 import photo from '../Personal.jpg'
 
-
 const AboutMe = () => {
     return (
         <div id="About" className="container py-5">
@@ -16,9 +15,8 @@ const AboutMe = () => {
                     <h1 className="about-heading">About Me</h1>
                     <p>
                         <br></br>
-                        <h5>Hello! I am Shubham.</h5>
-                        I'm Full-Stack Developer. I like to develop things and get creative.
-
+                        <h5><h2 className='aboutheading1'>Hello👋,</h2> I am Shubham.</h5>
+                        <h5>I'm Full-Stack Developer. I like to develop things and get creative.🧑🏻‍💻</h5>
                     </p>
                 </div>
             </div>

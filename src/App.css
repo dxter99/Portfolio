@@ -180,9 +180,12 @@ nav ul li {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 800;
-  padding-bottom: 30px;
+  padding-bottom: 25px;
   color: var(--primary-blue);
   letter-spacing: 4px;
+}
+.subheading1{
+  color: var(--primary-white) !important;
 }
 
 .typed-h2 {
@@ -222,12 +225,30 @@ nav ul li {
   border: 1px solid var(--primary-white);
   text-transform: uppercase;
   text-decoration: none;
-  width: 132px;
+  /* width: 132px; */
   border-radius: 0.3rem;
-  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  padding: 0.625rem 2rem 0.75rem 2rem;
   color: var(--primary-white);
   margin: 3rem;
   font-weight: lighter;
+}
+
+@media (max-width: 468px) {
+.custombutton{
+  display: flex;
+  flex-direction: column !important;
+}
+
+.btn-main-offer{
+  padding: 0.625rem 8rem 0.75rem rem;
+  margin: 0rem;
+  margin: 8rem 0rem 2rem 0rem;
+}
+
+.btn-main-resume{
+  padding: 0.625rem 8rem 0.75rem 8rem;
+  margin: 0rem;
+}
 }
 
 .btn-main-offer:hover {
@@ -286,6 +307,10 @@ nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.aboutheading1{
+  display: inline;
 }
 
 /***********************Services**********************/
@@ -695,7 +720,7 @@ textarea.form-control {
 /*---------------- Footer -----------------------*/
 
 .footer {
-  box-sizing: content-box;
+  box-sizing: content-box !important;
   background: var(--primary-black);
   color: var(--primary-darkgray);
   font-size: 16px;
@@ -705,7 +730,7 @@ textarea.form-control {
 }
 
 .roww {
-  padding: 130px 0 0 70px;
+  padding: 130px 35px 0 35px;
 }
 
 .footer a {
@@ -750,6 +775,26 @@ li {
   text-align: center;
   padding: 170px 0 0 0;
 }
+
+@media(max-width:768px){
+  .roww {
+    padding: 5px 0 0 0px;
+  }
+  .footer{
+    height: 67rem !important;
+  }
+  .copy {
+    text-align: center;
+    padding: 90px 0 0 0 !important;
+  }
+  .footersections {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Poppins", Arial, sans-serif;
+    padding: 45px 0px 30px 0px;
+  }
+  }
 
 /* @media (max-width: 992px) {
   .footer {

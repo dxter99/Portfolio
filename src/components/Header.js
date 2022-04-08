@@ -8,12 +8,12 @@ const Header = () => {
         <div id="Home" className="header-wrapper">
                 <div className="main-info">
                     <canvas></canvas>
-                    <span class="subheading">Hey! I am</span>
+                    <span className="subheading">Hey!<span className='subheading1'> I am</span></span>
                     <h1>
                         Shubham Nachare
                     </h1>
                     <h2 className="typed-h2">I Like <Typed className="typed-text" strings={["Web Designing", "Web Development","DevOps"]} typeSpeed={60} backSpeed={90} loop/></h2>
-                    <span className="button-wrapper">
+                    <span className="button-wrapper custombutton">
                     <Link smooth={true} duration={500}s to="Contacts" offset={-95} className="btn-main-offer">Contact Me</Link>
                     <a smooth={true} rel="noopener noreferrer" target="_blank" duration={500}s href={resume} offset={-95} className="btn-main-resume">Resume</a>
                     </span>
