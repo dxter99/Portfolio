@@ -33,7 +33,7 @@ const Contacts = () => {
     const sendEmail = (serviceID, templateID, variables, userID)=> {
         emailjs.send(serviceID, templateID, variables, userID)
           .then(() => {
-              setsuccessMessage("Form sent successfully! I'll contact you as soon as possible.");
+              setsuccessMessage("Request was sent successfully! I'll contact you as soon as possible. Thank You! 😊");
               
           }).catch(err=>console.error(`Something went wrong ${err}`));
       }
@@ -89,7 +89,7 @@ return (
                                 },
                                 maxLength:{
                                     value:10,
-                                    message:'Please enter a name with fewer then 10 Number'
+                                    message:'Please enter a number with fewer then 10 Number'
                                 }
                             })
                         }
