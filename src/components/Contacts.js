@@ -42,7 +42,14 @@ const Contacts = () => {
         <div id="Contacts" className="contacts">
             <div className="text-center">
                 <h1>Contact Me</h1>
-                <p>Let's get in touch we can have some chat ☕!</p>
+                <p> Get in touch , Let's have some chat
+                    <h2
+                        style={{
+                            paddingLeft: '10px',
+                            display: 'inline-block',
+                            verticalAlign: 'middle'
+                        }}
+                    >☕</h2></p>
                 <span className="success-message">{successMessage}</span>
             </div>
             <div className="container">
@@ -166,7 +173,7 @@ const Contacts = () => {
                     </div>
                 </form>
             </div>
-        </div>
+        </div >
     )
 }
 
