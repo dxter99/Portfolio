@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.4ed9e4dd.chunk.css",
-    "main.js": "/Portfolio/static/js/main.357b3758.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.357b3758.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.686cb7f6.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.686cb7f6.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.7cb65f1c.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.7cb65f1c.js.map",
     "static/css/2.aa07b0ce.chunk.css": "/Portfolio/static/css/2.aa07b0ce.chunk.css",
-    "static/js/2.c17f4f98.chunk.js": "/Portfolio/static/js/2.c17f4f98.chunk.js",
-    "static/js/2.c17f4f98.chunk.js.map": "/Portfolio/static/js/2.c17f4f98.chunk.js.map",
+    "static/js/2.d5a215f2.chunk.js": "/Portfolio/static/js/2.d5a215f2.chunk.js",
+    "static/js/2.d5a215f2.chunk.js.map": "/Portfolio/static/js/2.d5a215f2.chunk.js.map",
     "static/js/3.8e5341b4.chunk.js": "/Portfolio/static/js/3.8e5341b4.chunk.js",
     "static/js/3.8e5341b4.chunk.js.map": "/Portfolio/static/js/3.8e5341b4.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/2.aa07b0ce.chunk.css.map": "/Portfolio/static/css/2.aa07b0ce.chunk.css.map",
     "static/css/main.4ed9e4dd.chunk.css.map": "/Portfolio/static/css/main.4ed9e4dd.chunk.css.map",
-    "static/js/2.c17f4f98.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.c17f4f98.chunk.js.LICENSE.txt",
+    "static/js/2.d5a215f2.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.d5a215f2.chunk.js.LICENSE.txt",
     "static/media/Personal.981e85e5.jpg": "/Portfolio/static/media/Personal.981e85e5.jpg",
-    "static/media/Resume.136df03c.pdf": "/Portfolio/static/media/Resume.136df03c.pdf",
+    "static/media/Resume.8f449953.pdf": "/Portfolio/static/media/Resume.8f449953.pdf",
     "static/media/avatar-1.9277ecea.png": "/Portfolio/static/media/avatar-1.9277ecea.png",
     "static/media/avatar-2.75d8f23e.png": "/Portfolio/static/media/avatar-2.75d8f23e.png",
     "static/media/avatar-3.d6c9b46f.png": "/Portfolio/static/media/avatar-3.d6c9b46f.png",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.7cb65f1c.js",
     "static/css/2.aa07b0ce.chunk.css",
-    "static/js/2.c17f4f98.chunk.js",
+    "static/js/2.d5a215f2.chunk.js",
     "static/css/main.4ed9e4dd.chunk.css",
-    "static/js/main.357b3758.chunk.js"
+    "static/js/main.686cb7f6.chunk.js"
   ]
 }
