@@ -41,8 +41,7 @@ const Experience = () => {
                         <h3>2019-2020</h3>
                         <h5>Software associate at Capgemini</h5>
                         <p>After graducation started my career with capgemini where I was trained as .Net Full Stack developer 
-                            with angular. Got into Support and maintainece project. applying bug fix and change request for client 
-                            appliication which was based on .Net and Sharepoint.</p>
+                            with</p>
                     </div>
                 </div>
 
